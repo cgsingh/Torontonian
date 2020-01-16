@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.chris.torontonian.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/scrollView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+    <TextView
+        android:text="Entertain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView37"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_below="@+id/entertainBtn"
+        android:layout_alignStart="@+id/entertainBtn"
+        android:layout_alignEnd="@+id/entertainBtn"
+        android:textSize="12sp" />
+
+    <TextView
+        android:text="Shopping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView33"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_below="@+id/shoppingBtn"
+        android:layout_alignStart="@+id/shoppingBtn"
+        android:layout_alignEnd="@+id/shoppingBtn"
+        android:textSize="12sp" />
+
+    <TextView
+        android:text="Garden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView30"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_below="@+id/gardenBtn"
+        android:layout_alignStart="@+id/gardenBtn"
+        android:layout_alignEnd="@+id/gardenBtn"
+        android:textSize="12sp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/garden_icon"
+        android:id="@+id/gardenBtn"
+        android:elevation="0dp"
+        android:background="@android:color/black"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/textView20"
+        android:layout_alignStart="@+id/textView20" />
+
+    <TextView
+        android:text="Convention"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView20"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_below="@+id/conventionBtn"
+        android:textSize="12sp" />
+
+    <TextView
+        android:text="Attraction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/attractionBtn"
+        android:layout_alignStart="@+id/attractionBtn"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:layout_alignEnd="@+id/attractionBtn" />
+
+    <TextView
+        android:text="Beach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/beachBtn"
+        android:layout_alignStart="@+id/beachBtn"
+        android:layout_toStartOf="@+id/museumBtn"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/beach_icon"
+        android:id="@+id/beachBtn"
+        android:elevation="0dp"
+        android:background="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/museum_icon"
+        android:id="@+id/museumBtn"
+        android:elevation="0dp"
+        android:background="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/beachBtn"
+        android:layout_marginStart="41dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/attraction_icon"
+        android:id="@+id/attractionBtn"
+        android:elevation="0dp"
+        android:background="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/beachBtn"
+        android:layout_marginEnd="41dp" />
+
+    <TextView
+        android:text="Museum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/museumBtn"
+        android:layout_alignStart="@+id/museumBtn"
+        android:layout_alignEnd="@+id/museumBtn"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/featpark_icon"
+        android:id="@+id/parkBtn"
+        android:elevation="0dp"
+        android:background="@android:color/black"
+        android:layout_alignTop="@+id/galleryBtn"
+        android:layout_alignStart="@+id/textView3" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/gallery_icon"
+        android:id="@+id/galleryBtn"
+        android:elevation="0dp"
+        android:background="@android:color/black"
+        android:layout_alignTop="@+id/conventionBtn"
+        android:layout_alignStart="@+id/textView2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/convtradecentres_icon"
+        android:id="@+id/conventionBtn"
+        android:elevation="0dp"
+        android:background="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView18"
+        android:layout_alignStart="@+id/textView18" />
+
+    <TextView
+        android:text="Park"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_below="@+id/parkBtn"
+        android:layout_alignStart="@+id/parkBtn"
+        android:textSize="12sp"
+        android:layout_alignEnd="@+id/parkBtn" />
+
+    <TextView
+        android:text="Gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView19"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_below="@+id/galleryBtn"
+        android:layout_alignStart="@+id/galleryBtn"
+        android:layout_alignEnd="@+id/galleryBtn"
+        android:textSize="12sp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/landmark_icon"
+        android:id="@+id/landmarkBtn"
+        android:elevation="0dp"
+        android:background="@android:color/black"
+        android:layout_alignTop="@+id/artsBtn"
+        android:layout_alignStart="@+id/textView" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/perfarts_icon"
+        android:id="@+id/artsBtn"
+        android:elevation="0dp"
+        android:background="@android:color/black"
+        android:layout_alignTop="@+id/gardenBtn"
+        android:layout_alignStart="@+id/textView19" />
+
+    <TextView
+        android:text="Landmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView28"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_below="@+id/landmarkBtn"
+        android:layout_alignStart="@+id/landmarkBtn"
+        android:textSize="12sp"
+        android:layout_alignEnd="@+id/landmarkBtn" />
+
+    <TextView
+        android:text="Arts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView29"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_below="@+id/artsBtn"
+        android:layout_alignStart="@+id/artsBtn"
+        android:layout_alignEnd="@+id/artsBtn"
+        android:textSize="12sp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/shopping_icon"
+        android:id="@+id/shoppingBtn"
+        android:elevation="0dp"
+        android:background="@android:color/black"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/textView30"
+        android:layout_alignStart="@+id/textView30" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/transport_icon"
+        android:id="@+id/transportBtn"
+        android:elevation="0dp"
+        android:background="@android:color/black"
+        android:layout_alignTop="@+id/visitorsBtn"
+        android:layout_alignStart="@+id/textView28" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/visitorinfo_icon"
+        android:id="@+id/visitorsBtn"
+        android:elevation="0dp"
+        android:background="@android:color/black"
+        android:layout_alignTop="@+id/shoppingBtn"
+        android:layout_alignStart="@+id/textView29" />
+
+    <TextView
+        android:text="Transport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView31"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_below="@+id/transportBtn"
+        android:layout_alignStart="@+id/transportBtn"
+        android:textSize="12sp"
+        android:layout_alignEnd="@+id/transportBtn" />
+
+    <TextView
+        android:text="Visitors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView32"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_below="@+id/visitorsBtn"
+        android:layout_alignStart="@+id/visitorsBtn"
+        android:layout_alignEnd="@+id/visitorsBtn"
+        android:textSize="12sp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sportsentvenue_icon"
+        android:id="@+id/entertainBtn"
+        android:elevation="0dp"
+        android:background="@android:color/black"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/textView33"
+        android:layout_alignStart="@+id/textView33" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/favorites_icon"
+        android:id="@+id/favoritesBtn"
+        android:elevation="0dp"
+        android:background="@color/customBackground"
+        android:layout_alignTop="@+id/entertainBtn"
+        android:layout_alignStart="@+id/textView31" />
+
+    <TextView
+        android:text="Favorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView35"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:layout_below="@+id/favoritesBtn"
+        android:layout_alignStart="@+id/favoritesBtn"
+        android:layout_alignEnd="@+id/favoritesBtn" />
+
+
+
+            </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
